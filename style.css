@@ -23,7 +23,7 @@ header {
   left: 0;
 }
 h1 {
-  text-shadow: 1px 1px 2px red;
+  text-shadow: 1px 1px 2px blue;
   font-family: sans-serif;
   font-weight: bold;
   font-size:xx-large;
@@ -48,7 +48,7 @@ h1 {
   justify-content: center;
   gap: 0.3rem;
   background-color:rgba(248, 242, 248, 0.2) ;
-  box-shadow: 2px 2px 4px rgb(255, 0, 0);
+  box-shadow: 2px 2px 4px rgb(111, 106, 255);
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -73,7 +73,7 @@ li:nth-of-type(18){
   box-shadow: 1px 1px 4px black;
 }
 #calc-box li:hover {
-  background-color: rgb(248, 25, 25);
+  background-color: rgb(106, 138, 255);
 }
 #calc-box #result{
   background-color: rgba(211, 204, 211, 0.2);
@@ -81,11 +81,12 @@ li:nth-of-type(18){
   padding: 2rem;
 }
 #calc-box #sign{
-  background-color: rgba(255, 44, 44, 0.857);
+  background-color: rgba(186, 201, 255, 0.857);
   padding: 2rem;
+  /* circle */
 }
 #calc-box #sign:hover{
-  background-color: rgb(248, 25, 25);
+  background-color: rgb(106, 138, 255);
   padding: 2rem;
 }
 #calc-box #result:hover {
