@@ -2,11 +2,11 @@ html {
   font-family: "Quiksand", sans-serif;
   text-align: center;
   margin: 0%;
-  background: linear-gradient(100deg, rgb(194, 91, 170), rgb(105, 185, 225));
+  background: linear-gradient(100deg, rgb(255, 255, 255), rgb(241, 184, 236));
 }
 header {
   text-align: center;
-  background-color: rgb(103, 219, 223);
+  background-color: rgb(0, 219, 223);
   margin: 0%;
   padding: 0%;
   color: white;
@@ -35,7 +35,7 @@ h1 {
   padding: 0rem;
   display: grid;
   grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: repeat(6, 4.5rem);
+  grid-template-rows: repeat(6, 6rem);
   justify-content: center;
   gap: 0.3rem;
 }
@@ -49,7 +49,7 @@ li:nth-of-type(18){
   grid-column: 2 / 4;
 }
 #calc-box li {
-  background-color: rgb(242, 221, 243);
+  background-color: rgba(88, 84, 88, 0.2);
   border-radius: 0.1rem;
   cursor: pointer;
   display: flex;
@@ -63,9 +63,11 @@ li:nth-of-type(18){
   background-color: rgb(255, 255, 255);
 }
 #calc-box #result{
-  background-color: rgb(242, 221, 243);
+  background-color: rgba(28, 27, 28, 0.2);
+  justify-content: right;
+  padding: 2rem;
 }
 #calc-box #result:hover {
   cursor: default;
-  background-color: rgb(242, 221, 243);
+  background-color: rgba(28, 27, 28, 0.2);
 }
