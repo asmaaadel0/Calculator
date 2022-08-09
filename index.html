@@ -12,6 +12,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;600&family=Zilla+Slab:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
       href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto:ital,wght@0,400;1,300;1,700&display=swap"
       rel="stylesheet"
     />
@@ -25,9 +30,17 @@
     <!-- <img src="R.jpg" alt="photo"> -->
     <section id="calc-section">
       <ol id="calc-box">
+        <i class="fa-solid fa-delete-left"></i>
         <li data-col="0" data-row="0" id="result"></li>
         <li data-col="1" data-row="1" id="sign">AC</li>
-        <li data-col="2" data-row="1" id="sign">DEL</li>
+        <li data-col="2" data-row="1" id="sign">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path
+              d="M576 384C576 419.3 547.3 448 512 448H205.3C188.3 448 172 441.3 160 429.3L9.372 278.6C3.371 272.6 0 264.5 0 256C0 247.5 3.372 239.4 9.372 233.4L160 82.75C172 70.74 188.3 64 205.3 64H512C547.3 64 576 92.65 576 128V384zM271 208.1L318.1 256L271 303C261.7 312.4 261.7 327.6 271 336.1C280.4 346.3 295.6 346.3 304.1 336.1L352 289.9L399 336.1C408.4 346.3 423.6 346.3 432.1 336.1C442.3 327.6 442.3 312.4 432.1 303L385.9 256L432.1 208.1C442.3 199.6 442.3 184.4 432.1 175C423.6 165.7 408.4 165.7 399 175L352 222.1L304.1 175C295.6 165.7 280.4 165.7 271 175C261.7 184.4 261.7 199.6 271 208.1V208.1z"
+            />
+          </svg>
+          <!-- DEL -->
+        </li>
         <li data-col="3" data-row="1" id="sign">÷</li>
 
         <li data-col="1" data-row="2">1</li>
