@@ -48,6 +48,7 @@ h1 {
   justify-content: center;
   gap: 0.3rem;
   background-color:rgba(248, 242, 248, 0.2) ;
+  box-shadow: 2px 2px 4px rgb(255, 0, 0);
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
