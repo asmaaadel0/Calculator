@@ -1,7 +1,7 @@
 function calcResult() {
   switch (operation) {
     case "+":
-      result =  parseFloat (firstNum) + parseFloat(secondNum);
+      result = parseFloat(firstNum) + parseFloat(secondNum);
       break;
     case "-":
       result = parseFloat(firstNum) - parseFloat(secondNum);
@@ -23,39 +23,24 @@ function selectNumberField(event) {
   const selectedField = event.target;
   const selectedColumn = selectedField.dataset.col - 1;
   const selectedRow = selectedField.dataset.row - 1;
-  if (calcData[selectedRow][selectedColumn].id === "ac") {
-    for (let i = 0; i < 3; i++) {
-      console.log(calcData[0][i].id);
-      calcData[0][i].value = 0;
-    }
-    for (let i = 1; i < 4; i++) {
-      for (let j = 0; j < 4; j++) {
-        console.log(calcData[i][j].id);
-        calcData[i][j].value = 0;
-      }
-    }
-    for (let i = 0; i < 3; i++) {
-      console.log(calcData[4][i].id);
-      calcData[4][i].value = 0;
-    }
+  console.log(selectedColumn + " " + selectedColumn);
+  if (calcData[selectedRow][selectedColumn] === "ac") {
     resultBox.textContent = "";
     return;
-  } else if (calcData[selectedRow][selectedColumn].id === "del") {
-    calcData[selectedRow][selectedColumn].value = 1;
+  } else if (calcData[selectedRow][selectedColumn] === "del") {
     const delResultBoxChar = resultBox.textContent.slice(0, -1);
     resultBox.textContent = delResultBoxChar;
-  } else if (calcData[selectedRow][selectedColumn].id === "=") {
-    calcData[selectedRow][selectedColumn].value = 1;
+  } else if (calcData[selectedRow][selectedColumn] === "=") {
     secondNum = resultBox.textContent;
     calcResult();
     // resultBox.textContent = "";
   } else if (
-    calcData[selectedRow][selectedColumn].id === "+" ||
-    calcData[selectedRow][selectedColumn].id === "-" ||
-    calcData[selectedRow][selectedColumn].id === "*" ||
-    calcData[selectedRow][selectedColumn].id === "/"
+    calcData[selectedRow][selectedColumn] === "+" ||
+    calcData[selectedRow][selectedColumn] === "-" ||
+    calcData[selectedRow][selectedColumn] === "*" ||
+    calcData[selectedRow][selectedColumn] === "/"
   ) {
-    switch (calcData[selectedRow][selectedColumn].id) {
+    switch (calcData[selectedRow][selectedColumn]) {
       case "+":
         firstNum = resultBox.textContent;
         resultBox.textContent = "";
@@ -78,6 +63,7 @@ function selectNumberField(event) {
         break;
     }
   } else {
-    resultBox.textContent += calcData[selectedRow][selectedColumn].id;
+    console.log(calcData[selectedRow][selectedColumn]);
+    resultBox.textContent += calcData[selectedRow][selectedColumn];
   }
 }

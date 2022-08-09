@@ -2,7 +2,12 @@ html {
   font-family: "Quiksand", sans-serif;
   text-align: center;
   margin: 0%;
-  background: linear-gradient(100deg, rgb(255, 255, 255), rgb(241, 184, 236));
+  /* background: url(R.jpg); */
+  background-color: rgb(0, 0, 0);
+  /* background: linear-gradient(100deg, rgb(255, 255, 255), rgb(241, 184, 236)); */
+}
+html img {
+  opacity: 0.5;
 }
 header {
   text-align: center;
@@ -18,12 +23,16 @@ header {
   left: 0;
 }
 h1 {
-  text-shadow: 1px 1px 2px black;
-  font-family: "Oleo script", sans-serif;
+  text-shadow: 1px 1px 2px red;
+  font-family: sans-serif;
   font-weight: bold;
+  font-size:xx-large;
+  color: aliceblue;
+
 }
 #calc-section {
-  padding-top: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 3rem;
   text-align: center;
   margin: auto;
   width: 30%;
@@ -38,6 +47,9 @@ h1 {
   grid-template-rows: repeat(6, 6rem);
   justify-content: center;
   gap: 0.3rem;
+  background-color:rgba(248, 242, 248, 0.2) ;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 li:nth-of-type(1){
   grid-column: 1 / 5;
@@ -49,7 +61,7 @@ li:nth-of-type(18){
   grid-column: 2 / 4;
 }
 #calc-box li {
-  background-color: rgba(88, 84, 88, 0.2);
+  background-color: rgba(211, 204, 211, 0.2);
   border-radius: 0.1rem;
   cursor: pointer;
   display: flex;
@@ -57,17 +69,25 @@ li:nth-of-type(18){
   align-items: center;
   font-size: 2.5rem;
   font-weight: bold;
-  /* box-shadow: 1px 1px 4px black; */
+  box-shadow: 1px 1px 4px black;
 }
 #calc-box li:hover {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248, 25, 25);
 }
 #calc-box #result{
-  background-color: rgba(28, 27, 28, 0.2);
+  background-color: rgba(211, 204, 211, 0.2);
   justify-content: right;
+  padding: 2rem;
+}
+#calc-box #sign{
+  background-color: rgba(255, 44, 44, 0.857);
+  padding: 2rem;
+}
+#calc-box #sign:hover{
+  background-color: rgb(248, 25, 25);
   padding: 2rem;
 }
 #calc-box #result:hover {
   cursor: default;
-  background-color: rgba(28, 27, 28, 0.2);
+  background-color: rgba(211, 204, 211, 0.2);
 }
