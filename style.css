@@ -1,0 +1,59 @@
+html {
+  font-family: "Quiksand", sans-serif;
+  background-color: rgb(250, 237, 245);
+  text-align: center;
+  margin: 0%;
+}
+header {
+  text-align: center;
+  background-color: rgb(235, 117, 199);
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  padding: 1rem 1rem;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+}
+h1 {
+  text-shadow: 1px 1px 2px black;
+  font-family: "Oleo script", sans-serif;
+  font-weight: bold;
+}
+#calc-section {
+  padding-top: 10rem;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  display: block;
+}
+#calc-box {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0rem;
+  display: grid;
+  grid-template-columns: repeat(3, 6rem);
+  grid-template-rows: repeat(3, 6rem);
+  justify-content: center;
+  gap: 0.5rem;
+}
+#calc-box li {
+  background-color: rgb(249, 210, 210);
+  border-radius: 0.1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  /* box-shadow: 1px 1px 4px black; */
+}
+#calc-box li.disabled {
+  cursor: default;
+  background-color: rgb(235, 117, 199);
+}
+#calc-box li:hover {
+  background-color: rgb(235, 117, 199);
+}
