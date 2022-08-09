@@ -1,6 +1,8 @@
 const resultBox = document.getElementById("result");
 const numberFieldElements = document.querySelectorAll("#calc-box li");
+let firstNum, secondNum, operation,result;
 const calcData = [
+
   [
     {
       id: "ac",
