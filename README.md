@@ -23,7 +23,7 @@
 
 ![Capture](https://user-images.githubusercontent.com/88618793/183866294-716ae08a-4698-4527-9ad8-090ac6109eef.PNG)
 
- <h3 align='left'>When the Game start:</h3>
+ <h3 align='left'>When you press 3 as a first Number(for exampe):</h3>
 
 ![image](https://user-images.githubusercontent.com/88618793/182175009-6bf0beb0-dc95-4ae9-a3b0-bf755b31814b.png)
 
