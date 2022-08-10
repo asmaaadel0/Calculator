@@ -21,7 +21,7 @@
 
 <h3 align='left'>Main Screen</h3>
 
-![image](https://user-images.githubusercontent.com/88618793/182174954-7e98c883-5a95-498d-8d25-cd0636ab65d5.png)
+![Capture](https://user-images.githubusercontent.com/88618793/183866294-716ae08a-4698-4527-9ad8-090ac6109eef.PNG)
 
  <h3 align='left'>When the Game start:</h3>
 
