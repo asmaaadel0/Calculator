@@ -2,7 +2,7 @@
 
 - [About](#about)
 - [Calculator System](#calc-system)
-- [screenShot from the game](#screen-shots)
+- [screenShot](#screen-shots)
 - [Contributors](#Contributors)
 
 ## About <a name = "about"></a>
