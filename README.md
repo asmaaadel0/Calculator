@@ -2,7 +2,7 @@
 
 - [About](#about)
 - [Calculator System](#calc-system)
-- [screenShot](#screen-shots)
+- [ScreenShots](#screen-shots)
 - [Contributors](#Contributors)
 
 ## About <a name = "about"></a>
@@ -25,17 +25,19 @@
 
  <h3 align='left'>When you press 3 as a first Number(for exampe):</h3>
 
-![image](https://user-images.githubusercontent.com/88618793/182175009-6bf0beb0-dc95-4ae9-a3b0-bf755b31814b.png)
+![Capture2](https://user-images.githubusercontent.com/88618793/183885189-c735b576-d866-4b1d-9132-3ce376b90b5c.png)
 
 <h3 align='left'>if you choose '+' operation(for exampe):</h3>
 
-![image](https://user-images.githubusercontent.com/88618793/182175300-0045ecaf-2d68-4c88-aca0-835567412a57.png)
+![Capture3](https://user-images.githubusercontent.com/88618793/183885188-d643b6f7-d598-4f33-8ffc-39edc112a959.png)
 
 <h3 align='left'>When you press 6 as a second Number(for exampe):</h3>
 
-<h3 align='left'>then if you press '=' sign:</h3>
+![Capture4](https://user-images.githubusercontent.com/88618793/183885195-aac7e005-e797-48bd-86a6-9ff5650ba50a.PNG)
 
-<h3 align='left'>you will see the result:</h3>
+<h3 align='left'>then if you press '=' sign, you will see the result:</h3>
+
+![Capture6](https://user-images.githubusercontent.com/88618793/183885786-ef0924bc-0f60-472e-947f-56070f3d5760.PNG)
 
 ## Contributors <a name = "Contributors"></a>
 
