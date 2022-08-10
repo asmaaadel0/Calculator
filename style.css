@@ -49,8 +49,7 @@ h1 {
   gap: 0.3rem;
   background-color:rgba(248, 242, 248, 0.2) ;
   box-shadow: 2px 2px 4px rgb(111, 106, 255);
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 3rem;
 }
 li:nth-of-type(1){
   grid-column: 1 / 5;
@@ -76,6 +75,8 @@ li:nth-of-type(18){
   background-color: rgb(106, 138, 255);
 }
 #calc-box #result{
+  border-style:solid;
+  border-color: rgb(1, 1, 67);
   background-color: rgba(211, 204, 211, 0.2);
   justify-content: right;
   padding: 2rem;
