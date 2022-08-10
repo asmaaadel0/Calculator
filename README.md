@@ -27,9 +27,15 @@
 
 ![image](https://user-images.githubusercontent.com/88618793/182175009-6bf0beb0-dc95-4ae9-a3b0-bf755b31814b.png)
 
-<h3 align='left'>when the Player lose:</h3>
+<h3 align='left'>if you choose '+' operation(for exampe):</h3>
 
 ![image](https://user-images.githubusercontent.com/88618793/182175300-0045ecaf-2d68-4c88-aca0-835567412a57.png)
+
+<h3 align='left'>When you press 6 as a second Number(for exampe):</h3>
+
+<h3 align='left'>then if you press '=' sign:</h3>
+
+<h3 align='left'>you will see the result:</h3>
 
 ## Contributors <a name = "Contributors"></a>
 
