@@ -17,7 +17,7 @@
 - if you want to start new calculation you can press 'AC'.
 - delete button to delete the last number you add.
 
-## ScreenShots : <a name = "screan-shots"></a>
+## ScreenShots : <a name = "screen-shots"></a>
 
 <h3 align='left'>Main Screen</h3>
 
